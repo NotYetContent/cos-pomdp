@@ -41,6 +41,10 @@ def _test_method(method, target_class, scene="FloorPlan21"):
 
 
 if __name__ == "__main__":
-    # _test_method(Methods.V_HIERARCHICAL_CORR_CRT, "bedroom", "AlarmClock", scene="FloorPlan_Val1_1")
-    _test_method(Methods.V_HIERARCHICAL_TARGET, "AlarmClock", scene="FloorPlan_Val3_2")
+    # _test_method(Methods.V_HIERARCHICAL_TARGET, "AlarmClock", scene="FloorPlan_Val3_2")
+    # _test_method(Methods.V_HIERARCHICAL_TARGET, "AlarmClock", scene="FloorPlan_Val1_5")
+    # _test_method(Methods.V_HIERARCHICAL_TARGET, "AlarmClock", scene="FloorPlan_Val1_4")
+    _test_method(Methods.GT_HIERARCHICAL_TARGET, "AlarmClock", scene="FloorPlan_Val1_4")
+
+
 
